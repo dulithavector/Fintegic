@@ -570,6 +570,7 @@ nav.nav-inner {
 	position: relative;
  	margin-top: 90px;
 	z-index: 20;
+	bottom: 50px;
 }
 .sliding-menu ul {
 	margin: 0;
