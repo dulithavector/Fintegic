@@ -165,13 +165,20 @@ body {
 }
 /*--------------Typography--------------------------------------*/
 p {
-	font-size: 40px;
+	font-size: 12px;
 	line-height: 40px;
 	padding-bottom: 10px;
 	font-weight: 500;
 	color: #5e646a;
 	text-align:left;
-	font-weight: bold;
+}
+p1 {
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 10px;
+	font-weight: 500;
+	color: #ffffffde;
+	text-align:left;
 }
 blockquote {
 	float: left;
@@ -1517,7 +1524,7 @@ nav.nav-inner {
  	font-family: 'Oswald', sans-serif;
 }
 .carousel-title-wrap h2 a {
-	color:rgba(255,255,255,1);
+	color:rgba(255, 255, 255, 0.68);
 }
 .carousel-title-wrap h2 a i {
 	padding-left:18px;
@@ -4650,6 +4657,13 @@ nav.nav-inner {
 	text-align: left;
 	
 }
+
+.pro-logo{
+	height: 6.5% !important;
+	width: 6.5% !important;
+}
+
+
 
 
 
