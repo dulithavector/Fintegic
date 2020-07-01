@@ -165,7 +165,7 @@ body {
 }
 /*--------------Typography--------------------------------------*/
 p {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 40px;
 	padding-bottom: 10px;
 	font-weight: 500;
@@ -2485,7 +2485,7 @@ font-family: 'Roboto', sans-serif;
 }
 .pr-subtitle {
 	font-size:22px;
-	text-align:left;
+	text-align:;
 	color:#000;
 	font-weight: 800;
 	float:left;
