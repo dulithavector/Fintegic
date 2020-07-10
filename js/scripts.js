@@ -1179,3 +1179,4 @@ function readyFunctions() {
     initTheside();
     initparallax();
 }
+
