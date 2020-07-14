@@ -3262,13 +3262,14 @@ font-family: 'Roboto', sans-serif;
 	float:right;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 13px;
 	font-weight:600;
     height: 90px;
     line-height: 90px;
     color: #fff;
     width: 180px;
 	background:#727277;
+	right: 20px;
 }
 .to-top-btn i {
 	padding-left:10px;
