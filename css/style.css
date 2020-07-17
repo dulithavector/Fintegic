@@ -701,7 +701,8 @@ nav.nav-inner {
     font-weight: 500;
     font-size: 10px;
     color: rgba(255, 255, 255, 0.51);
-    letter-spacing: 4px;
+	letter-spacing: 4px;
+	left: 15px;
 }
 .nav-social li{
     width: 40px;
@@ -2267,7 +2268,7 @@ section.hero-section .fs-canvas {
 	bottom:20px;
 	left:0;
 	width:100%;
-	padding:10px 30px;
+	padding:0px 25px;
 	z-index:10;
 	opacity:0;
 	margin-top:-10px;
@@ -4557,6 +4558,9 @@ section , section.no-padding-bottom {
 }	
 }
 @media only screen and (max-width: 768px) {
+.header1{
+	display: none;
+}
 .hero-slider-wrap_halftwo {
     left: 0;
 	bottom:60px;
@@ -4571,6 +4575,7 @@ section , section.no-padding-bottom {
 #portfolio_horizontal_container .portfolio_item  , #portfolio_horizontal_container .portfolio_item .grid-item-holder , #portfolio_horizontal_container .portfolio_item .grid-item-holder img {
 	width: 100%;
 	height: auto !important;
+
 }
 .option-panel .slide-progress-container , .hero-start-link:after , .hero-start-link:before  , .half-scrollbar , .content-nav li a.rn span , .content-nav li a.ln span , .inline-filter-panel  .folio-counter {
 	display:none;
