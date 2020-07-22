@@ -173,7 +173,7 @@ p {
 	text-align:left;
 }
 p1 {
-	font-size: 37px;
+	font-size: 30px;
 	line-height: 40px;
 	padding-bottom: 10px;
 	font-weight: 500;
@@ -181,11 +181,12 @@ p1 {
 	text-align:left;
 	font-family: cursive;
 	-webkit-text-stroke: thin;
+	text-transform: uppercase;
 	
 }
 
 p2{
-	font-size: 37px;
+	font-size: 30px;
 	line-height: 40px;
 	padding-bottom: 10px;
 	font-weight: 500;
@@ -193,6 +194,7 @@ p2{
 	text-align:left;
 	font-family: cursive;
 	-webkit-text-stroke: thin;
+	text-transform: uppercase;
 	
 }
 blockquote {
