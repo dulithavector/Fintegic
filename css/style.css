@@ -179,8 +179,7 @@ p1 {
 	font-weight: 500;
 	color: #000000;
 	text-align:left;
-	font-family: cursive;
-	-webkit-text-stroke: thin;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	
 }
@@ -192,8 +191,7 @@ p2{
 	font-weight: 500;
 	color: #000000;
 	text-align:left;
-	font-family: cursive;
-	-webkit-text-stroke: thin;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	
 }
@@ -499,6 +497,7 @@ header.main-header:before {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
 }
 .nav-button.cmenu .menu-button-text {
 	margin-top: 16px;
@@ -509,6 +508,7 @@ header.main-header:before {
 	top:24px;
 	padding-right:70px;
 	right:150px;
+	font-family: 'Poppins', sans-serif;
 }
 .header-contacts ul {
 	float:right;
@@ -607,6 +607,7 @@ nav.nav-inner {
 	position: relative;
 	float: left;
 	width: 100%;
+	font-family: 'Poppins', sans-serif;
 }
 .sliding-menu a {
 	float: left;
@@ -1493,6 +1494,7 @@ nav.nav-inner {
 .hero-slider_control span{
 	position:relative;
 	z-index:2;
+	font-family: 'Poppins', sans-serif;
 }
 .hero-slider_control i {
 	color:#fff;
@@ -1894,7 +1896,7 @@ section.hero-section .fs-canvas {
     padding-top: 10px;
     color: #999;
     text-align: left;
-    font-size: 10px;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
@@ -1902,6 +1904,7 @@ section.hero-section .fs-canvas {
     position: relative;
     z-index: 2;
 	max-width:450px;
+	font-family: 'Poppins', sans-serif;
 }
 .split-sceen-content.dark-bg .split-sceen-content_title p {
 	color:rgba(255,255,255,0.41);
@@ -1928,7 +1931,8 @@ section.hero-section .fs-canvas {
     width: 100%;
 	letter-spacing:2px;
     padding-bottom: 10px;
-    line-height: 34px;
+	line-height: 34px;
+	font-family: 'Sriracha', cursive;
 }
 .split-sceen-content.dark-bg  .split-sceen-content_title h3 {
 	color:rgba(255,255,255,0.71);
@@ -2008,7 +2012,7 @@ section.hero-section .fs-canvas {
 	position: fixed;
 	left:90px;
 	bottom:-70px;
- 	background: #2D2D32;
+ 	background: #1d2121;
 	height:60px;
 	z-index:12;
 	padding-right:60px;
@@ -2026,7 +2030,7 @@ section.hero-section .fs-canvas {
 	top:0;
 	height:100%;
 	z-index:1;
-	background:#2A2A2E;
+	background:#1d2121;
 }
 .fixed-filter-panel.fw-panel:after  {
 	width:100px;
@@ -2145,7 +2149,7 @@ section.hero-section .fs-canvas {
 	height: 30px;
 	border-radius: 4px;
 	padding: 0 6px;
-	border: 1px solid rgba(255, 255, 255, 0.41);
+	border: 1px solid rgb(169 255 0);
 	box-sizing: border-box;
 }
 .scroller {
@@ -2568,7 +2572,7 @@ font-family: 'Roboto', sans-serif;
 	margin:10px 0 30px;
 }
 .pr-subtitle {
-	font-size:22px;
+	font-size:23px;
 	text-align:;
 	color:#000;
 	font-weight: 800;
@@ -2576,7 +2580,7 @@ font-family: 'Roboto', sans-serif;
 	width:100%;
 	padding-bottom:20px;
 	line-height:34px;
-	font-family: 'Khand', sans-serif;
+	font-family: 'Sriracha', cursive;
 }
 
 .audit {
@@ -3157,8 +3161,9 @@ font-family: 'Roboto', sans-serif;
 	margin-top:40px;
 }
 .footer-box p {
-	font-family: 'Roboto', sans-serif;
-    color: rgba(255, 255, 255, 0.41);
+	font-family: 'Poppins', sans-serif;
+	color: rgba(255, 255, 255, 0.41);
+	font-size: 14px;
 }
 .footer_text {
 	padding-right:50px;
