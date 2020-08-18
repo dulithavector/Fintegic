@@ -5672,6 +5672,15 @@ section.hero-section .fs-canvas {
 	.menu-button-text{
 		display:none;
 	}
+	.nav-button-wrap{
+		display: none;
+	}
+}
+
+.header-contacts ul li a:hover{
+	color: #f7c200d1;
+	font-size: 16px !important; 
+
 }
 
 
