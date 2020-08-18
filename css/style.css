@@ -617,13 +617,17 @@ header.main-header:before {
 	margin-top: 16px;
 }
 
-.header-contacts {
+.header-contacts  {
 	float: right;
 	position: relative;
 	top: 24px;
 	padding-right: 70px;
 	right: 150px;
 	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
 }
 
 .header-contacts ul {
@@ -634,13 +638,14 @@ header.main-header:before {
 	list-style: none;
 	float: left;
 	margin-right: 40px;
-	top: 14px;
+	top: 19px;
 	position: relative;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 10px;
+	font-size: 14px;
 	color: rgba(255, 255, 255, 0.51);
 	letter-spacing: 4px;
+	right: 40px;
 }
 
 .header-contacts li:before {
@@ -654,7 +659,7 @@ header.main-header:before {
 }
 
 .header-contacts li a {
-	color: rgb(255, 255, 255);
+	color: rgb(255 255 255 / 75%);
 }
 
 /*------ navigation  ------------------------------------------------*/
@@ -5160,6 +5165,7 @@ section.hero-section .fs-canvas {
 @media only screen and (max-width: 1224px) {
 	.option-panel {
 		width: 50%;
+
 	}
 
 	.scroll-down-wrap span{
@@ -5463,11 +5469,14 @@ section.hero-section .fs-canvas {
 	.fw-carousel-control_container,
 	.inline-filter_title,
 	.to-top-btn {
-		width: 100%;
+		width: 112%;
+		color: #d8d800 !important;
+		right: -20px;
+		background-color: #000000b3;
 	}
 
 	.inline-facts-wrap {
-		width: 50%;
+		width: 50%;                                  
 	}
 
 	.inline-filter_title {
@@ -5658,5 +5667,16 @@ section.hero-section .fs-canvas {
 	height: 6.5% !important;
 	width: 6.5% !important;
 }
+
+@media only screen and (min-width:1064px){
+	.menu-button-text{
+		display:none;
+	}
+}
+
+	
+
+
+
 
 /* */
