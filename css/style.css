@@ -605,7 +605,7 @@ header.main-header:before {
 	left: 0;
 	width: 100%;
 	bottom: 10px;
-	color: rgb(255 255 255);
+	color: #f7c200d1;
 	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -642,7 +642,7 @@ header.main-header:before {
 	position: relative;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 12px;
 	color: rgba(255, 255, 255, 0.51);
 	letter-spacing: 4px;
 	right: 40px;
@@ -3703,7 +3703,7 @@ section.hero-section .fs-canvas {
 }
 
 .subfooter {
-	height: 90px;
+	height: 71px;
 	z-index: 3;
 }
 
@@ -5679,10 +5679,15 @@ section.hero-section .fs-canvas {
 
 .header-contacts ul li a:hover{
 	color: #f7c200d1;
-	font-size: 16px !important; 
+	font-size: 13px !important; 
+	font-weight: 600;
 
 }
 
+  duli.hover_new,duli:hover{
+	background: rgba(51, 100, 163, 0.534);
+	transition: .5s;
+}
 
 
 
