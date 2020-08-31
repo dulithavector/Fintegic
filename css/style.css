@@ -2155,9 +2155,10 @@ section.hero-section .fs-canvas {
 	padding-bottom: 20px;
 	position: relative;
 	text-transform: uppercase;
-	line-height: 80px;
+	line-height: 68px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 2px;
+	
 }
 
 .hero-section .section-title h2:before,
@@ -3018,6 +3019,7 @@ section.hero-section .fs-canvas {
 	letter-spacing: 2px;
 	word-spacing: 0;
 	font-size: 11px;
+	line-height: 19px;
 }
 
 .pr-list li span {
@@ -3718,7 +3720,7 @@ section.hero-section .fs-canvas {
 }
 
 .footer-inner {
-	padding: 120px 0 170px;
+	padding: 120px 0 70px;
 }
 
 .footer-logo {
@@ -3752,9 +3754,11 @@ section.hero-section .fs-canvas {
 }
 
 .footer-contacts span {
-	padding-right: 30px;
+	padding-right: 10px;
 	min-width: 100px;
 	float: left;
+	
+	
 }
 
 .footer-contacts li {
@@ -3763,11 +3767,14 @@ section.hero-section .fs-canvas {
 	font-size: 12px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	
 }
 
 .footer-contacts li a {
 	color: rgba(255, 255, 255, 0.81);
+	line-height: 20px;
+
 }
 
 .footer-logo img {
@@ -5688,6 +5695,33 @@ section.hero-section .fs-canvas {
 	background: rgba(51, 100, 163, 0.534);
 	transition: .5s;
 }
+
+.word{
+	font-size: 40px;
+	color: #ffffffab;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 200;
+	line-height: 53px;
+	
+}
+
+
+.word2{
+	font-size: 46px;
+	color: #d4a505;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+
+.about-us  p{
+	color: black;
+	text-align: left;
+}
+
+
 
 
 
