@@ -1024,7 +1024,7 @@ nav.nav-inner {
 	position: relative;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	line-height: 50px;
+	line-height: 63px;
 	position: relative;
 }
 
@@ -5720,6 +5720,23 @@ section.hero-section .fs-canvas {
 	color: black;
 	text-align: left;
 }
+
+.sub-menu-1{
+	display: none;
+}
+
+.fintegig{
+	top: 37px;
+	left: -57px;
+	
+	
+}
+
+.partner{
+	top: 37px;
+	left: -57px;
+}
+
 
 
 
