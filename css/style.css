@@ -2144,6 +2144,7 @@ section.hero-section .fs-canvas {
 	padding: 20px 0 20px 50px;
 	margin-bottom: 50px;
 	text-align: left;
+	top: -61px;
 }
 
 .hero-section .section-title h2,
@@ -2156,6 +2157,21 @@ section.hero-section .fs-canvas {
 	position: relative;
 	text-transform: uppercase;
 	line-height: 68px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	
+}
+
+.hero-section .section-title h3,
+.hero-title .section-title h3 {
+	color: #f1eb32d4;
+	font-size: 54px;
+	text-align: left;
+	font-weight: 200;
+	padding-bottom: 20px;
+	position: relative;
+	text-transform: uppercase;
+	line-height: 67px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 2px;
 	
@@ -5198,6 +5214,10 @@ section.hero-section .fs-canvas {
 	.four-column .gallery-item.gallery-item-second {
 		width: 66.6%;
 	}
+	.section-title fl-wrap{
+		top: -152px;
+		right: 39px;
+	}
 }
 
 @media only screen and (max-width: 1064px) {
@@ -5719,6 +5739,7 @@ section.hero-section .fs-canvas {
 .about-us  p{
 	color: black;
 	text-align: left;
+	
 }
 
 .sub-menu-1{
@@ -5736,6 +5757,17 @@ section.hero-section .fs-canvas {
 	top: 37px;
 	left: -57px;
 }
+
+
+
+.contact-d{
+	color: chartreuse;
+}
+
+
+
+
+
 
 
 
