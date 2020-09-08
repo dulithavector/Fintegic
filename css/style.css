@@ -1026,6 +1026,8 @@ nav.nav-inner {
 	text-transform: uppercase;
 	line-height: 63px;
 	position: relative;
+	top: 49px;
+	
 }
 
 .fixed-column-wrap_title h2:before {
@@ -2139,12 +2141,12 @@ section.hero-section .fs-canvas {
 	top: 50%;
 }
 
-.hero-section .section-title,
+
 .hero-title .section-title {
 	padding: 20px 0 20px 50px;
 	margin-bottom: 50px;
 	text-align: left;
-	top: -61px;
+	
 }
 
 .hero-section .section-title h2,
@@ -5707,6 +5709,12 @@ section.hero-section .fs-canvas {
 	.nav-button-wrap{
 		display: none;
 	}
+
+	
+}
+.hero-title .section-title{
+	top: -85px;
+	left: -42px;
 }
 
 .header-contacts ul li a:hover{
@@ -5758,10 +5766,7 @@ section.hero-section .fs-canvas {
 	
 }
 
-.partner{
-	top: 37px;
-	left: -57px;
-}
+
 
 
 
@@ -5774,10 +5779,9 @@ section.hero-section .fs-canvas {
 	left: 37px;
 }
 
-.hero-title .section-title{
-	top: -144px;
-	left: -32px;
-}
+
+
+
 
 .hero-title .section-title h3{
 	color: #fffee9d4;
@@ -5785,6 +5789,14 @@ section.hero-section .fs-canvas {
 	padding-bottom: 0px;
 }
 
+.partner{
+	top: 12px;
+}
+
+.shake-logo{
+	width: 150px;
+	height: 150px;
+}
 
 
 
