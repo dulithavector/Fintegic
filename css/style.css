@@ -5218,6 +5218,7 @@ section.hero-section .fs-canvas {
 		top: -152px;
 		right: 39px;
 	}
+	
 }
 
 @media only screen and (max-width: 1064px) {
@@ -5436,6 +5437,7 @@ section.hero-section .fs-canvas {
 		height: 100%;
 		padding-bottom: 80px;
 	}
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -5553,6 +5555,7 @@ section.hero-section .fs-canvas {
 	.start-btn {
 		width: 140px;
 	}
+	
 }
 
 @media only screen and (max-width: 640px) {
@@ -5659,6 +5662,7 @@ section.hero-section .fs-canvas {
 		width: 100%;
 		z-index: 2;
 	}
+	
 }
 
 .our-cli .p {
@@ -5694,6 +5698,7 @@ section.hero-section .fs-canvas {
 	height: 6.5% !important;
 	width: 6.5% !important;
 }
+
 
 @media only screen and (min-width:1064px){
 	.menu-button-text{
@@ -5764,6 +5769,15 @@ section.hero-section .fs-canvas {
 	color: chartreuse;
 }
 
+.fintegig{
+	top: 45px;
+	left: 37px;
+}
+
+.hero-title .section-title{
+	top: -144px;
+	left: -32px;
+}
 
 
 
