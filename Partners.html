@@ -246,23 +246,44 @@
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="images/favicon.ico">
     <style>
-        img:hover {
-            animation: shake 0.5s;
-            animation-iteration-count: infinite;
+        .brands {
+            position: relative;
+            width: 50%;
         }
-        @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+
+        .brand-image {
+            display: block;
+            width: 250px;
+            height: 220px;
+        }
+
+        .brand-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #1d2121;
+            overflow: hidden;
+            width: 250px;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .brands:hover .brand-overlay {
+            height: 100%;
+        }
+
+        .brand-text {
+            color: rgb(255 255 255);
+            font-size: 27px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
     </style>
     
 </head>
@@ -448,32 +469,234 @@
                                 </div>
                             </section>
 
+                            <h2></h2>
                             
-                            <img class="shake-logo" src="images/Brands/Aquabliss.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Avion-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Carmyog-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/The-Elelments-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Tatva-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Swiss-Collection-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Soil-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Reborn-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Luxury-Ayurveda-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Heaven-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Ember-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/De-Royale-Collection-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Florella-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Awake-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Aromatherapy sun 2.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Bellacio-by-SR-Luxury.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Biodegradable.png" alt="Aquabliss" width="100" height="100">
-                            <img class="shake-logo" src="images/Brands/Biossentials spa body beauty - Green_ Gold.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Biossentials Tropical Collection Logo 2020-01.png" alt="Aquabliss">  
-                            <img class="shake-logo" src="images/Brands/Emphysis.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Facial care sun.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/logo (1).png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/logo.png" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/luxury.jpg" alt="Aquabliss">
-                            <img class="shake-logo" src="images/Brands/Tropical sun.png" alt="Aquabliss">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Aqua.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">AQUABLISS</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Avion.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">AVION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Awake.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">AWAKE</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Carmyog.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">CARMYOG</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Royale.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">THE ROYALE COLLECTION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Ember.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">EMBER</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Reborn.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">REBORN</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Soil.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">SOIL</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Heaven.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">HEAVEN</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Swiss.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">SWISS COLLECTION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Tatva.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">TATVA</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Elements.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">THE ELEMENTS</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Luxury.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">LUXURY AYURVEDA</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Tropical.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">TROPICAL SUN</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Facial.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">FACIAL CARE SUN</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Aromatherapy.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">AROMATHERAPY SUN 2</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Emphysi.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">EMPHYSIS COLLECTION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Bellacio.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">BELLICIO AROMATHERAPY</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Florella.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">FLORELLA</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Slipper.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">THE SLIPPER FACTORY</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Biossentials.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">BIODEGRADABLE COLLECTION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Hyson.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">HYSON</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>&nbsp; &nbsp;</td>
+                                    <td>
+                                        <div class="brands">
+                                            <img src="images/Brands/Bio.png" alt="Avatar" class="brand-image">
+                                            <div class="brand-overlay">
+                                                <div class="brand-text">TROPICAL SPA COLLECTION</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                    
+                                </tr>
+                            </table>
+                            
+                            
+                            
+
+                            
+                            
                            
                             
                             

@@ -1026,7 +1026,7 @@ nav.nav-inner {
 	text-transform: uppercase;
 	line-height: 63px;
 	position: relative;
-	top: 49px;
+	top: 76px;
 	
 }
 
@@ -5220,6 +5220,8 @@ section.hero-section .fs-canvas {
 		top: -152px;
 		right: 39px;
 	}
+
+	
 	
 }
 
@@ -5440,6 +5442,7 @@ section.hero-section .fs-canvas {
 		padding-bottom: 80px;
 	}
 	
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -5557,6 +5560,22 @@ section.hero-section .fs-canvas {
 	.start-btn {
 		width: 140px;
 	}
+
+	.brand-image {
+		display: block !important;
+		width: 119px !important;
+		height: 119px !important;
+		
+	}
+
+	.brand-overlay{
+		width: 119px !important;
+	}
+
+	.brand-text{
+		font-size: 16px !important;
+	}
+	
 	
 }
 
@@ -5672,6 +5691,9 @@ section.hero-section .fs-canvas {
 	font-weight: bold;
 }
 
+
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	.bg {
 		background-attachment: scroll !important;
@@ -5700,6 +5722,10 @@ section.hero-section .fs-canvas {
 	height: 6.5% !important;
 	width: 6.5% !important;
 }
+
+
+
+
 
 
 @media only screen and (min-width:1064px){
@@ -5762,9 +5788,9 @@ section.hero-section .fs-canvas {
 .fintegig{
 	top: 37px;
 	left: -57px;
-	
-	
 }
+
+
 
 
 
@@ -5793,10 +5819,12 @@ section.hero-section .fs-canvas {
 	top: 12px;
 }
 
-.shake-logo{
-	width: 150px;
-	height: 150px;
-}
+
+	
+
+
+
+
 
 
 
