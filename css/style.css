@@ -1019,14 +1019,15 @@ nav.nav-inner {
 .fixed-column-wrap_title h2 {
 	color: #fff;
 	font-size: 45px;
-	font-weight: 900;
+	font-weight: 400;
 	padding-bottom: 20px;
 	position: relative;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-transform: uppercase;
 	line-height: 63px;
 	position: relative;
 	top: 76px;
+	right: 120px;
 	
 }
 
@@ -5221,7 +5222,10 @@ section.hero-section .fs-canvas {
 		right: 39px;
 	}
 
-	
+	.fixed-column-wrap_title h2{
+		top: 49px;
+		right: -87px;
+	}
 	
 }
 
@@ -5577,6 +5581,7 @@ section.hero-section .fs-canvas {
 	}
 	
 	
+	
 }
 
 @media only screen and (max-width: 640px) {
@@ -5693,7 +5698,6 @@ section.hero-section .fs-canvas {
 
 
 
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	.bg {
 		background-attachment: scroll !important;
@@ -5722,6 +5726,7 @@ section.hero-section .fs-canvas {
 	height: 6.5% !important;
 	width: 6.5% !important;
 }
+
 
 
 
@@ -5815,9 +5820,6 @@ section.hero-section .fs-canvas {
 	padding-bottom: 0px;
 }
 
-.partner{
-	top: 12px;
-}
 
 
 	
