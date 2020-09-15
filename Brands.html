@@ -288,6 +288,55 @@
             text-align: center;
         }
     </style>
+     <style>
+        .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #7e88878f;
+  min-width: 282px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(19, 184, 162, 0.411);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-top: -12px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  color: rgb(255 255 255 / 75%);
+  font-weight: 500;
+font-size: 12px;
+letter-spacing: 4px;
+}
+    </style>
     
 </head>
 
@@ -318,7 +367,21 @@
             <div class="header-contacts">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">ABOUT US
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="Introduction.html">Introduction</a>
+                              <a href="Partners.html">Partners</a>
+                              <a href="Brands.html">Brands we represent</a>
+                              <a href="Clients.html">Clients</a>
+                              <a href="Quality.html">Quality certifications</a>
+                            </div>
+                          </div> 
+                    </li>
+                    
                     <li><a href="products.html">Products</a></li>
                     <li><a href="contacts.html">Contact Us</a></li>
                 </ul>
