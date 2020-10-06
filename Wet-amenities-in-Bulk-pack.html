@@ -78,6 +78,46 @@
     letter-spacing: 4px;
     }
         </style>
+        <style>
+             .brands {
+            position: relative;
+            width: 50%;
+        }
+
+        .brand-image {
+            display: block;
+            width: 250px;
+            height: 220px;
+        }
+
+        .brand-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #1d2121;
+            overflow: hidden;
+            width: 250px;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .brands:hover .brand-overlay {
+            height: 100%;
+        }
+
+        .brand-text {
+            color: rgb(255 255 255);
+            font-size: 27px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        </style>
     </head>
     <body>
         <!--Loader -->
@@ -89,7 +129,7 @@
         <div id="main">
             <!-- header start  -->
             <header class="main-header">
-                <a href="index.html" class="header-logo ajax"><img src="images/logo.png" alt=""></a>
+                <a href="index.html" class="header-logo aja"><img src="images/logo.png" alt=""></a>
                 <!-- sidebar-button --> 
                 <!-- nav-button-wrap-->
                 <div class="nav-button-wrap">
@@ -223,7 +263,7 @@
                                                         <div class="container">
                                                             <div class="section-title fl-wrap">
                                                                 <div class="pr-bg"></div>
-                                                                <h2>LUXURY WET AMENITIES<br></h2>
+                                                                <h2>Refillable Wet Amenities<br></h2>
                                                                 <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                                                 <div class="section-title_category"><a href="#">Architecture</a> <a href="#">Design</a> </div>
                                                             </div>
@@ -283,23 +323,16 @@
                                             <div class="fixed-column fl-wrap">
                                                 <div class="pr-bg pr-bg-white"></div>
                                                 <div class="pr-title">
-                                                    Products
+                                                    PRODUCTS
                                                     <span></span>
                                                 </div>
                                                 <ul class="pr-list dark-bg-1">
-                                                    <h2><a href="ELEMENTS.html" class="text-logo">Elements<img class="pro-logo" src="images/logo/elements.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Aquabliss.html" class="text-logo"> Aquabliss<img class="pro-logo" src="images/logo/Aquabliss.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Earth-Reborn.html" class="text-logo">Earth Reborn<img class="pro-logo" src="images/logo/Reborn.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Ember.html" class="text-logo">Ember<img class="pro-logo" src="images/logo/Ember.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Avion.html" class="text-logo">Avion<img class="pro-logo" src="images/logo/Avion.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Heaven.html" class="text-logo">Heaven<img class="pro-logo" src="images/logo/Heaven.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="SOIL.html" class="text-logo">Soil<img class="pro-logo" src="images/logo/soil.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Tatva.html" class="text-logo">Tatva<img class="pro-logo" src="images/logo/Tatva.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Luxury-Ayurvedha.html" class="text-logo">Luxury Ayurvedha<img class="pro-logo" src="images/logo/Luxury-Ayurveda.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Royale-Collection.html" class="text-logo">Royale Collection<img class="pro-logo" src="images/logo/Luxury-Ayurveda.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Daily-Science.html" class="text-logo">Daily Science<img class="pro-logo" src="images/logo/Daily-Science.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Karmyog.html" class="text-logo">Karmyog<img class="pro-logo" src="images/logo/Carmyog.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Swiss-Collection.html" class="text-logo">Swiss Collection<img class="pro-logo" src="images/logo/Swiss-Collection.png"><i class="#"></i></a></h2>
+                                                    <h2><a href="Jewel.html" class="#">Jewel<i class="#"></i></a></h2>
+                                                    <h2><a href="Hermes.html" class="#">Hermes<i class="#"></i></a></h2>
+                                                    <h2><a href="Chanel.html" class="#">Chanel<i class="#"></i></a></h2>
+                                                    <h2><a href="Lemongrass.html" class="#">Lemongrass<i class="#"></i></a></h2>
+                                                    <h2><a href="Rose.html" class="#">Rose<i class="#"></i></a></h2>
+                                                    <h2><a href="Green-tea.html" class="#">Green Tea<i class="#"></i></a></h2>
                                                 </ul>
                                                 <div class="fixed-column-top"><i class="fal fa-long-arrow-up"></i></div>
                                             </div>
@@ -315,67 +348,80 @@
                                                 </ul>
                                                 <!-- tab-content--> 
                                                 <div id="tab-1" class="tab-content">
-                                                    <h3 class="pr-subtitle">Luxury Wet Amenities</h3>
-                                                    <p>Fintegic Investments brings you the Luxury Hotel Toiletries & Bio‐Degradable Guest Amenities from the leading manufacturer. Fintegic partnered with leading supplier SR Luxury amenities which had the manufacturing units spread across Delhi , having fully automized manufacturing plants with special attention towards hygiene and quality standards, you are sure to receive top notch international quality products.</p>
-                                                    <p>All our products are cruelty free & 100% Vegan i.e. free from artificial preservatives, dyes, colors, synthetic fragrances, animal by‐products & petro chemicals (which are used by other vendors for cost reduction). Our finest quality Guest Toiletries are developed with natural formulations using natural actives, pure essential oils, exquisite natural fragrances & 100% paraben‐free preservatives.</p>
-                                                    <p>We have the largest portfolio of luxury amenity brands with beautiful tailor-made solutions for the hospitality industry. Our manufacturer is the Global Award Winners in Innovation & Quality of Hotel Amenities from India for the year 2017‐18.</p>
-                                                    <p>Our partners proudly hold industry standardized licenses for all the formulations and provide lab testing reports (COA) Certificate of analysis for all batches of our quality rich products</p>
-                                                    <h3 class="pr-subtitle mar-top">Following are Our Core Service Standards in Luxury Amenities:</h3>
+                                                    <h3 class="pr-subtitle">Refillable Wet Amenities</h3>
+                                                    <p>We care about the environment as you do. Fintegic Investments brings you range of fragrance in refillable bulk pack for the resorts to support the environmental initiative. Our Refillable wet amenities includes Shampoo, Shower gel, Conditioner, Body lotion and Hand wash. These bulk packing combined with our ceramic dispenser gives the elegance and fragrance to your guest, while ensuring the green initiative of your resorts. </p>
+                                                    <p>Our products are manufactured by our reputed supplier who has the international certifications such as ISO 9001 and GMPC certification. All the products are paraben free and cruelty free.</p>
+                                                    <p>We design our formulas & packaging to be kind to your body, and our planet. Get to know the kind elements that power our daily routines.</p>
+                                                    <p>Reduce, reuse, replenish</p>
+                                                    <h3 class="pr-subtitle mar-top">BRANDS</h3>
                                                     <!-- accordion-->                            
-                                                    <div class="accordion mar-top">
-                                                        <a class="toggle act-accordion" href="#"><li>Exclusive Toiletries Design / Branding service.</li>   <span></span></a>
-                                                       
-                                                        <a class="toggle" href="#"><li>Graphic Illustrations for customized products to make you feel how your &nbsp;&nbsp;&nbsp;product will look.</li><span></span></a>
-                                                       
-                                                        <a class="toggle" href="#"><li>"7 step Product Customization Program (PCP) which gives leverage to our &nbsp;&nbsp;&nbsp;&nbsp;clients to choose from‐ Product Category, Packaging, Size, Color, Fragrance, &nbsp;&nbsp;&nbsp;&nbsp;Consistency, Technology</li><span></span></a>
-                                                      
-                                                    </div>
+                                                   <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Chanel.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Chanel.html">CHANEL</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>&nbsp; &nbsp;</td>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Green Tea.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Green-tea.html">GREEN TEA</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>&nbsp; &nbsp;</td>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Hermes.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Hermes.html">HERMES</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Jewel.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Jewel.html">JEWEL</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>&nbsp; &nbsp;</td>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Lemon Grass.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Lemongrass.html">LEMON GRASS</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>&nbsp; &nbsp;</td>
+                                                        <td>
+                                                            <div class="brands">
+                                                                <img src="images/Bulk amenities logo/Rose.png" alt="Avatar" class="brand-image">
+                                                                <div class="brand-overlay">
+                                                                    <div class="brand-text"><a class="chanel" href="Rose.html">ROSE</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                   </table>
                                                     <!-- accordion end -->  
-                                                    <p class="mar-top">From the very first stage of procuring the raw materials, our manufactures follows ecological standards. Being a herbal health & luxury personal care product manufacturer, we use <b>renewable plant raw materials</b> and certified herbal active ingredients. All the ingredients we purchase undergo rigorous check by the manufacturer themselves and every product is still re-checked and tested at our unit. </p>
-                                                    <p>Our preference green and safe ingredients makes our manufacturers the only manufacturing facility from India producing <b>Paraben/phthalate/petroleum/formaldehyde</b> free personal care products for the hospitality industry.</p>
-                                                    <p><b>Fragrances :</b> We only use <b>naturally derived fragrances</b> and pure essential oils for our products. Our manufacturers is proud to be technically supported by one of the largest company in the fragrance industry. Our fragrance oils are designed in France & Switzerland.</p>
-                                                    <p><b>Active Ingredients :</b> SR only uses purely herbal <b>FDA-approved active ingredients.</b></p>
-                                                    <p><b>Base Ingredients:</b> All our base ingredients are proudly free of paraben, phthalate, formaldehyde and harmful dyes.</p>
-                                                    <p><b>100% Vegan :</b> All our products are free from animal by-products and are <b>never tested on animals.</b> </p>
-                                                    <h3 class="pr-subtitle">7 step Product Customization Program (PCP)</h3>
-                                                    <img src="images/Image 2.jpg" width="80%" height="80%" class="image-2">
-                                                    <p>Customizing from the shape of the bottle, colour, materials, fragrances to formulations and more, that complements your resort’s brand personality perfectly. Get one of our existing amenity collections with your logo or develop a fully customized program with our professional creative a team exclusively for you.</p>
+                                                   
                                                 </div>
                                                 <!-- tab-content end--> 
                                                 <!-- tab-content--> 
-                                                <div id="tab-2" class="tab-content">
-                                                    <h3 class="pr-subtitle"> Project Presentation.</h3>
-                                                    <p>  An eros argumentum vel, elit diceret duo eu, quo et aliquid ornatus delicatissimi. Cu nam tale ferri utroque, eu habemus albucius mel, cu vidit possit ornatus eum. Eu ius postulant salutatus definitionem, explicari. Graeci viderer qui ut, at habeo facer solet usu. Pri choro pertinax indoctum ne, ad partiendo persecuti forensibus est.</p>
-                                                    <div class="video-box fl-wrap">
-                                                        <img src="images/all/7.jpg" class="respimg" alt="">
-                                                        <a class="video-box-btn image-popup" href="https://vimeo.com/34741214"><i class="fas fa-play"></i></a>
-                                                    </div>
-                                                </div>
+                                              
                                                 <!-- tab-content end-->                                                      
                                                 <!-- tab-content--> 
-                                                <div id="tab-3" class="tab-content">
-                                                    <h3 class="pr-subtitle">Plan and sketches of the project.</h3>
-                                                    <div class="palns-gal fl-wrap lightgallery">
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/1.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/2.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/2.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/3.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/3.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->                                                                                                           
-                                                    </div>
-                                                </div>
+                                              
                                                 <!-- tab-content end-->                                                     
                                             </div>
                                             <!-- tabs-container end-->  

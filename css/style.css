@@ -378,7 +378,7 @@ blockquote p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(45, 45, 50, 0.51);
+	background: rgb(45 45 50 / 18%);
 	z-index: 3;
 }
 
@@ -3025,7 +3025,7 @@ section.hero-section .fs-canvas {
 }
 
 .det-wrap p {
-	font-size: 14px;
+	font-size: 15px;
 	text-align: left;
 	font-family: 'Quicksand', sans-serif;
 }
@@ -3035,6 +3035,7 @@ section.hero-section .fs-canvas {
 	width: 100%;
 	padding: 30px 20px;
 	margin-top: 10px;
+	text-align: left;
 }
 
 .pr-list li {
@@ -3067,7 +3068,7 @@ section.hero-section .fs-canvas {
 }
 
 .pr-subtitle {
-	font-size: 23px;
+	font-size: 26px;
 	text-align: ;
 	color: #000;
 	font-weight: 800;
@@ -3747,7 +3748,7 @@ section.hero-section .fs-canvas {
 }
 
 .footer-inner {
-	padding: 120px 0 70px;
+	padding: 120px 0 0px;
 }
 
 .footer-logo {
@@ -5839,7 +5840,13 @@ section.hero-section .fs-canvas {
 	color: white;
 }
 
-	
+.chanel{
+	color: white;
+}
+
+.soap-bar{
+	text-align: left;
+}
 
 
 
