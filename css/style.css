@@ -2019,16 +2019,16 @@ section.hero-section:after {
 section.hero-section .fs-canvas {
 	z-index: 2;
 
-	bottom: 70px;
-	left: 70px;
+	bottom: 53px;
+	left: 33px;
 }
 
 .hero-bg {
 	position: absolute;
 
 	top: 0;
-	bottom: 70px;
-	right: 70px;
+	bottom: 53px;
+	right: 0px;
 	left: 30%;
 	overflow: hidden;
 	z-index: 2;
@@ -2081,8 +2081,8 @@ section.hero-section .fs-canvas {
 .hero-start-link {
 	position: absolute;
 	right: 0;
-	width: 70%;
-	height: 70px;
+	width: 71%;
+	height: 59px;
 	bottom: -70px;
 	z-index: 2;
 	padding-left: 140px
@@ -2162,15 +2162,16 @@ section.hero-section .fs-canvas {
 .hero-section .section-title h2,
 .hero-title .section-title h2 {
 	color: #ffffffab;
-	font-size: 56px;
+	font-size: 42px;
 	text-align: left;
 	font-weight: 200;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 	position: relative;
 	text-transform: uppercase;
 	line-height: 68px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 2px;
+	bottom: 57px;
 	
 }
 
@@ -5204,7 +5205,7 @@ section.hero-section .fs-canvas {
 	}
 
 	.scroll-down-wrap span{
-		top: -28px;
+		top: -42px;
 	}
 
 	.hero-start-link.hero-start-link_mlt {
