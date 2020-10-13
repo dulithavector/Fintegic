@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
         <style>
@@ -78,6 +79,72 @@
     letter-spacing: 4px;
     }
         </style>
+        <style>
+            html {
+              box-sizing: border-box;
+            }
+            
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+            
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 0 8px;
+            }
+            
+            @media screen and (max-width: 650px) {
+              .column {
+                width: 100%;
+                display: block;
+              }
+            }
+            
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+            
+            .aroma-container {
+              padding: 0 16px;
+            }
+            
+            .aroma-container::after, .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .title {
+              color: grey;
+            }
+            
+            .aroma-button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #326f82;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            .aroma-button:hover {
+              background-color: #727277;
+            }
+
+            .aroma-a{
+                color: white;
+            }
+
+            .tropical{
+                color: black;
+                font-size: 102%;
+            }
+            </style>
     </head>
     <body>
         <!--Loader -->
@@ -319,16 +386,67 @@
                                                     <!-- accordion end -->  
                                                     
                                                 </div>
+                                                            <div class="row">
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Aromatherapy-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Aromatherapy collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Experience Biossentials’ pure and natural essential oils, massage oils, body care and lifestyle products.</p>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="index.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Tropical-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Tropical Spa Collection</h2>
+                                                                            </div>
+                                                                            
+                                                                            <p>Exotic Asian inspired traditional spa, body and lifestyle products with pure flower and plant essences.</p>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="index.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Lavender-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Lavender Collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Step into nature’s garden the delicate scent of organic lavender and bergamot.</p><br>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="index.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Facial-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Facial Care Collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Aromatherapy facial care with pure essential oils reveal the healing power of nature for healthy, glowing skin.</p>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="index.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                
                                                 <!-- tab-content end--> 
                                                 <!-- tab-content--> 
-                                                <div id="tab-2" class="tab-content">
-                                                    <h3 class="pr-subtitle"> Project Presentation.</h3>
-                                                    <p>  An eros argumentum vel, elit diceret duo eu, quo et aliquid ornatus delicatissimi. Cu nam tale ferri utroque, eu habemus albucius mel, cu vidit possit ornatus eum. Eu ius postulant salutatus definitionem, explicari. Graeci viderer qui ut, at habeo facer solet usu. Pri choro pertinax indoctum ne, ad partiendo persecuti forensibus est.</p>
-                                                    <div class="video-box fl-wrap">
-                                                        <img src="images/all/7.jpg" class="respimg" alt="">
-                                                        <a class="video-box-btn image-popup" href="https://vimeo.com/34741214"><i class="fas fa-play"></i></a>
-                                                    </div>
-                                                </div>
+                                            
                                                 <!-- tab-content end-->                                                      
                                                 <!-- tab-content--> 
                                                 <div id="tab-3" class="tab-content">
