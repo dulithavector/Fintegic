@@ -5242,6 +5242,8 @@ section.hero-section .fs-canvas {
 	
 }
 
+
+
 @media only screen and (max-width: 1064px) {
 	#wrapper {
 		left: 0;
@@ -5458,6 +5460,7 @@ section.hero-section .fs-canvas {
 		height: 100%;
 		padding-bottom: 80px;
 	}
+	
 	
 	
 }
@@ -5853,10 +5856,10 @@ section.hero-section .fs-canvas {
 }
 
 
-
-
-
-
+.row-copy {
+	margin-left: -523px;
+    margin-right: -20px;
+}
 
 
 
