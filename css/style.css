@@ -5461,8 +5461,18 @@ section.hero-section .fs-canvas {
 		padding-bottom: 80px;
 	}
 	
+	.row-copy{
+		margin-left: -25px;
+    	margin-right: -20px;
+	}
 	
-	
+}
+
+@media only screen and (max-width: 527px) {
+	.row-copy {
+		margin-left: -20;
+    	margin-right: -20px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
