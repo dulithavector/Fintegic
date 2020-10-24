@@ -5850,6 +5850,7 @@ section.hero-section .fs-canvas {
 	font-size: 45px;
 	color: white;
 	font-weight: 200;
+	line-height: 32px;
 }
 
 .text-logo{
@@ -5882,7 +5883,16 @@ section.hero-section .fs-canvas {
 	left: 86px !important;
 }
 
+.page-title-ceramic{
+	font-size: 50px !important;
+	bottom: 65px !important;
+}
 
+.page-title-asvida{
+	font-size: 50px !important;
+	bottom: 65px !important;
+	left: 55px !important;
+}
 
 
 
