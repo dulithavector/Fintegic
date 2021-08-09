@@ -78,6 +78,72 @@
     letter-spacing: 4px;
     }
         </style>
+        <style>
+            html {
+              box-sizing: border-box;
+            }
+            
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+            
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 0 8px;
+            }
+            
+            @media screen and (max-width: 650px) {
+              .column {
+                width: 100%;
+                display: block;
+              }
+            }
+            
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+            
+            .aroma-container {
+              padding: 0 16px;
+            }
+            
+            .aroma-container::after, .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .title {
+              color: grey;
+            }
+            
+            .aroma-button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #1a1a1a;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            .aroma-button:hover {
+              background-color: #727277;
+            }
+
+            .aroma-a{
+                color: white;
+            }
+
+            .tropical{
+                color: black;
+                font-size: 102%;
+            }
+            </style>
     </head>
     <body>
         <!--Loader -->
@@ -274,31 +340,7 @@
                                 <!-- det-wrap-->  
                                 <div class="fl-wrap det-wrap">
                                     <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="fixed-column fl-wrap">
-                                                <div class="pr-bg pr-bg-white"></div>
-                                                <div class="pr-title">
-                                                    PRODUCTS
-                                                    <span></span>
-                                                </div>
-                                                <ul class="pr-list dark-bg-1">
-                                                    <h2><a href="ELEMENTS.html" class="text-logo">Elements<img class="pro-logo" src="images/logo/elements.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Aquabliss.html" class="text-logo"> Aquabliss<img class="pro-logo" src="images/logo/Aquabliss.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Earth-Reborn.html" class="text-logo">Earth Reborn<img class="pro-logo" src="images/logo/Reborn.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Ember.html" class="text-logo">Ember<img class="pro-logo" src="images/logo/Ember.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Avion.html" class="text-logo">Avion<img class="pro-logo" src="images/logo/Avion.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Heaven.html" class="text-logo">Heaven<img class="pro-logo" src="images/logo/Heaven.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="SOIL.html" class="text-logo">Soil<img class="pro-logo" src="images/logo/soil.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Tatva.html" class="text-logo">Tatva<img class="pro-logo" src="images/logo/Tatva.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Luxury-Ayurvedha.html" class="text-logo">Luxury Ayurvedha<img class="pro-logo" src="images/logo/Luxury-Ayurveda.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Royale-Collection.html" class="text-logo">Royale Collection<img class="pro-logo" src="images/logo/Luxury-Ayurveda.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Daily-Science.html" class="text-logo">Daily Science<img class="pro-logo" src="images/logo/Daily-Science.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Karmyog.html" class="text-logo">Karmyog<img class="pro-logo" src="images/logo/Carmyog.png"><i class="#"></i></a></h2>
-                                                    <h2><a href="Swiss-Collection.html" class="text-logo">Swiss Collection<img class="pro-logo" src="images/logo/Swiss-Collection.png"><i class="#"></i></a></h2>
-                                                </ul>
-                                                <div class="fixed-column-top"><i class="fal fa-long-arrow-up"></i></div>
-                                            </div>
-                                        </div>
+                                        
                                         <div class="col-md-8 first-tile_load">
                                             <!-- tabs-container-->  
                                             <div id="tabs-container">
@@ -337,6 +379,88 @@
                                                     <p>Customizing from the shape of the bottle, colour, materials, fragrances to formulations and more, that complements your resort’s brand personality perfectly. Get one of our existing amenity collections with your logo or develop a fully customized program with our professional creative a team exclusively for you.</p>
                                                 </div>
                                                 <!-- tab-content end--> 
+                                                <div class="row">
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/Brands/Elements.png" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                
+                                                                            </div>
+                                                                           
+                                                                            
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Aromatherapy -Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/Brands/Aqua.png" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                
+                                                                            </div>
+                                                                            
+    
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Tropical-Spa-Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Lavender-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Lavender Collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Step into nature’s garden the delicate scent of organic lavender and bergamot.</p><br>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Lavender-Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Aromatherapy-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Aromatherapy collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Experience Biossentials’pure and natural essential oils,massage oils,body care and lifestyle products.</p>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Aromatherapy -Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Tropical-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Tropical Spa Collection</h2>
+                                                                            </div>
+                                                                            
+                                                                            <p>Exotic Asian inspired traditional spa,body and lifestyle products with pure flower and plant essences.</p>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Tropical-Spa-Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/bg/Lavender-Collection.jpg" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                <h2>Lavender Collection</h2>
+                                                                            </div>
+                                                                           
+                                                                            <p>Step into nature’s garden the delicate scent of organic lavender and bergamot.</p><br>
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="Lavender-Collection.html">VIEW PRODUCTS</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                 <!-- tab-content--> 
                                                 <div id="tab-2" class="tab-content">
                                                     <h3 class="pr-subtitle"> Project Presentation.</h3>

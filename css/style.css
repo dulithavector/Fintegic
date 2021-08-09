@@ -2164,7 +2164,7 @@ section.hero-section .fs-canvas {
 	color: #ffffffab;
 	font-size: 60px;
 	text-align: left;
-	font-weight: 200;
+	font-weight: 500;
 	padding-bottom: 100px;
 	position: relative;
 	text-transform: uppercase;
@@ -3030,7 +3030,7 @@ section.hero-section .fs-canvas {
 
 .det-wrap p {
 	font-size: 15px;
-	text-align: left;
+	text-align: justify;
 	font-family: 'Quicksand', sans-serif;
 }
 
