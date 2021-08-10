@@ -5,7 +5,7 @@
 <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>PRODUCT_DETAILS</title>
+        <title>Biodegradable Amenities Collection</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
         <style>
@@ -78,6 +79,73 @@
     letter-spacing: 4px;
     }
         </style>
+        <style>
+            html {
+              box-sizing: border-box;
+            }
+            
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+            
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 0 8px;
+            }
+            
+            @media screen and (max-width: 650px) {
+              .column {
+                width: 100%;
+                display: block;
+              }
+            }
+            
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+            
+            .aroma-container {
+              padding: 0 16px;
+            }
+            
+            .aroma-container::after, .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .title {
+              color: grey;
+            }
+            
+            .aroma-button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #1a1a1a;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            .aroma-button:hover {
+              background-color: #727277;
+            }
+
+            .aroma-a{
+                color: white;
+            }
+
+            .tropical{
+                color: black;
+                font-size: 102%;
+            }
+            </style>
+            
     </head>
     <body>
         <!--Loader -->
@@ -112,8 +180,8 @@
                                   <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
-                                  <a href="Introduction.html">Our Company Story</a>
-                                  <a href="Clients.html">Clients</a>
+                                 <a href="Introduction.html">Our Company Story</a>
+                                 <a href="Clients.html">Clients</a>
                                 </div>
                               </div> 
                         </li>
@@ -213,14 +281,14 @@
                                                     <div class="bg"  data-bg="images/bg/aquabliss.jpg"></div>
                                                     <div class="overlay"></div>
                                                     <div class="sec-lines"></div>
-                                                    <a href="images/bg/aquabliss.jpg" class="#"><i class="#"></i></a>
+                                                    <a href="images/bg/Facial-Care.jpg" class="#"><i class="#"></i></a>
                                                     <div class="hero-title fl-wrap">
                                                         <div class="container">
                                                             <div class="section-title fl-wrap">
                                                                 <div class="pr-bg"></div>
-                                                                <h2>Biodegradable Amenities collection<br></h2>
-                                                                <p>  </p>
-                                                                <div class="section-title_category"><a href="#">Architecture</a> <a href="#">Design</a> </div>
+                                                                <h2>Biodegradable Amenities Collection<br></h2>
+                                                                <p> </p>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -228,28 +296,13 @@
                                             </div>
                                             <!-- swiper-slide-->
                                             <!-- swiper-slide-->
-                                            <div class="swiper-slide hov_zoom">
-                                                <div class="fs-slider-item fl-wrap">
-                                                    <div class="bg"  data-bg="images/bg/6.jpg"></div>
-                                                    <a href="images/bg/2.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                </div>
-                                            </div>
+                                          
                                             <!-- swiper-slide-->
                                             <!-- swiper-slide-->
-                                            <div class="swiper-slide hov_zoom">
-                                                <div class="fs-slider-item fl-wrap">
-                                                    <div class="bg"  data-bg="images/bg/7.jpg"></div>
-                                                    <a href="images/bg/3.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                </div>
-                                            </div>
+                                         
                                             <!-- swiper-slide-->  
                                             <!-- swiper-slide-->
-                                            <div class="swiper-slide hov_zoom">
-                                                <div class="fs-slider-item fl-wrap">
-                                                    <div class="bg"  data-bg="images/bg/18.jpg"></div>
-                                                    <a href="images/bg/18.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                </div>
-                                            </div>
+                                            
                                             <!-- swiper-slide-->                                                      
                                         </div>
                                     </div>
@@ -273,18 +326,13 @@
                             <div class="container">
                                 <!-- det-wrap-->  
                                 <div class="fl-wrap det-wrap">
-                                    <div class="row">
+                                    <div class="row-copy">
                                         <div class="col-md-4">
                                             <div class="fixed-column fl-wrap">
                                                 <div class="pr-bg pr-bg-white"></div>
-                                                <div class="pr-title">
-                                                    PRODUCTS
-                                                    <span></span>
-                                                </div>
-                                                <ul class="pr-list dark-bg-1">
-                                                    <h2><a href="Biodegradable.html" class="#">Biodegradable Resort Amenity Collection<i class="#"></i></a></h2>
-                                                </ul>
-                                                <div class="fixed-column-top"><i class="fal fa-long-arrow-up"></i></div>
+                                               
+                                              
+                                                
                                             </div>
                                         </div>
                                         <div class="col-md-8 first-tile_load">
@@ -298,51 +346,48 @@
                                                 </ul>
                                                 <!-- tab-content--> 
                                                 <div id="tab-1" class="tab-content">
-                                                    <h3 class="pr-subtitle">Biodegradable Amenities collection</h3>
+                                                    <h3 class="pr-subtitle">Biodegradable Amenities Collection</h3>
                                                     <p>We care about the environment as you do. Introducing the range of Bio degradable resort amenities to go green while not compromising your quality parameters.</p>
                                                     <p>We are very proud to be the first in Maldives to introduce complete bio-degradable and environment friendly range under the "Go Green Movement" initiated by our partners SR Luxury which focuses on "ZERO WASTE" in manufacturing industry. Right from the outer packaging to the ingredients and the final product is completely environment friendly and a boon for resort industry. This whole new range is crafted and dedicated for the "LOVE OF MOTHER EARTH." </p>
                                                     <p>We along with our manufacturer come up with eco-friendly, biodegradable bottle amenities in order to reduce the resorts carbon footprint. The features of the new bottle amenities include: PSM corn starch, biodegradable bottles, post-consumer recycled boxes, soy-based inks, minimal packaging, vegetable soaps, low fragrance, minimal preservatives, and 100% vegan. The biodegradable bottle amenities take you a step closer to 100% sustainable hotel operations. Every day, millions of bottles of hotel amenities end up in the trash and are taken to landfills. Our go-green amenities make sure that in a million years, those bottles won’t still be sitting there.</p>
                                                     <p>While being sustainable, the product fits well into the quality standards. Performance is the key. That’s where our go green amenities excel: merging being green with luxury high grade products.  Fintegic and SR dedicated to serve high quality personal care & guest amenity products assuring adherence to sustainable business principles at every point of</p>
+                                                    
+                                                    <h3 class="pr-subtitle mar-top"></h3>
                                                     <!-- accordion-->                            
-                                                  
+                                                     
                                                     <!-- accordion end -->  
+                                                    <p class="mar-top"></p>
+                                                   
+                                                    
+                                                    
+                                                   
                                                     
                                                 </div>
+                                                        <div class="row">
+                                                                <div class="column">
+                                                                    <div class="card">
+                                                                        <img src="images/folio/SR/Bio2.png" alt="aroma" style="width: 100%">
+                                                                        <div class="aroma-container">
+                                                                            <div class="tropical">
+                                                                                
+                                                                            </div>
+                                                                           
+                                                                            
+                                                                            <p><button class="aroma-button"><a class="aroma-a" href="white-grey.html">Biodegradable Resort Amenity Collection</button></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+
+                                                            
                                                 <!-- tab-content end--> 
                                                 <!-- tab-content--> 
-                                                <div id="tab-2" class="tab-content">
-                                                    <h3 class="pr-subtitle"> Project Presentation.</h3>
-                                                    <p>  An eros argumentum vel, elit diceret duo eu, quo et aliquid ornatus delicatissimi. Cu nam tale ferri utroque, eu habemus albucius mel, cu vidit possit ornatus eum. Eu ius postulant salutatus definitionem, explicari. Graeci viderer qui ut, at habeo facer solet usu. Pri choro pertinax indoctum ne, ad partiendo persecuti forensibus est.</p>
-                                                    <div class="video-box fl-wrap">
-                                                        <img src="images/all/7.jpg" class="respimg" alt="">
-                                                        <a class="video-box-btn image-popup" href="https://vimeo.com/34741214"><i class="fas fa-play"></i></a>
-                                                    </div>
-                                                </div>
+                                              
                                                 <!-- tab-content end-->                                                      
                                                 <!-- tab-content--> 
-                                                <div id="tab-3" class="tab-content">
-                                                    <h3 class="pr-subtitle">Plan and sketches of the project.</h3>
-                                                    <div class="palns-gal fl-wrap lightgallery">
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/1.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/2.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/2.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->
-                                                        <!-- plans-gal_item--> 
-                                                        <div class="plans-gal_item hov_zoom">
-                                                            <img src="images/plans/3.jpg" alt="" class="respimg">
-                                                            <a href="images/plans/3.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                        </div>
-                                                        <!-- plans-gal_item end-->                                                                                                           
-                                                    </div>
-                                                </div>
+                                             
                                                 <!-- tab-content end-->                                                     
                                             </div>
                                             <!-- tabs-container end-->  
