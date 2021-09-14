@@ -3146,6 +3146,19 @@ section.hero-section .fs-canvas {
     font-family: -webkit-pictograph;
     margin-left: -17px;
 	}
+
+	.aroma-button-new{
+	border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+    cursor: pointer;
+    width: 42%;
+    margin-left: 482px;
+	}
 	
 	
 
@@ -5462,6 +5475,18 @@ section.hero-section .fs-canvas {
     font-family: -webkit-pictograph;
     margin-left: 246px;
 	}
+
+	.aroma-button-new {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #1a1a1a;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
 
 
 	.accordion-inner {
