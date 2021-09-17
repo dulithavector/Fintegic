@@ -1,1 +1,0 @@
-﻿positionForPages[1]={page:1,positions:[{word:"Floor Care",left:0.136899,top:0.336751,width:0.073300,height:0.017475}]};
