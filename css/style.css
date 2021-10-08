@@ -5486,6 +5486,7 @@ section.hero-section .fs-canvas {
               text-align: center;
               cursor: pointer;
               width: 100%;
+			  margin-left: 1px;
             }
 
 
@@ -5519,6 +5520,12 @@ section.hero-section .fs-canvas {
 	position: relative;
 	margin-left: 471px;
 }
+
+	.accordion-margin{
+		margin-left: 495px;
+	}
+
+
 
 
 
@@ -5774,6 +5781,7 @@ section.hero-section .fs-canvas {
 		margin-left: -25px;
     	margin-right: -20px;
 	}
+	
 	
 }
 
