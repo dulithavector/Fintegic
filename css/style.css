@@ -2289,7 +2289,10 @@ section.hero-section .fs-canvas {
 	z-index: 2;
 	max-width: 450px;
 	font-family: 'Poppins', sans-serif;
+	bottom: 70px;
 }
+
+
 
 .split-sceen-content.dark-bg .split-sceen-content_title p {
 	color: rgba(255, 255, 255, 0.41);
@@ -2318,7 +2321,7 @@ section.hero-section .fs-canvas {
 	float: left;
 	width: 100%;
 	letter-spacing: 2px;
-	padding-bottom: 10px;
+	padding-bottom: 75px;
 	line-height: 34px;
 	font-family: unset;
 }
@@ -4547,10 +4550,11 @@ section.hero-section .fs-canvas {
 .cont-det-wrap {
 	padding: 50px 50px;
 	position: absolute;
-	bottom: -120px;
+	bottom: -149px;
 	right: 100px;
 	width: 400px;
 	z-index: 2;
+	margin-right: 52px;
 }
 
 .cont-det-wrap li {
