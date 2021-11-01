@@ -6079,9 +6079,10 @@ section.hero-section .fs-canvas {
 	.bg {
 		background-attachment: scroll !important;
 		-webkit-background-size: cover;
-		background-position: inherit;
+		background-position: center;
 
 	}
+	
 
 
 
