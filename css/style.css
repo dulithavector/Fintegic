@@ -354,6 +354,11 @@ blockquote p {
 	height: auto;
 }
 
+.respimg-new {
+	width: 100%; !important
+	height: auto; !important
+}
+
 .hidden-item {
 	overflow: hidden;
 }
@@ -3149,6 +3154,12 @@ section.hero-section .fs-canvas {
     line-height: 34px;
     font-family: -webkit-pictograph;
     margin-left: -17px;
+	}
+
+	.respimg-new {
+		width: 45%;
+		height: 45%;
+		margin-left: 494px;
 	}
 
 	.aroma-button-new{
@@ -6068,7 +6079,7 @@ section.hero-section .fs-canvas {
 	.bg {
 		background-attachment: scroll !important;
 		-webkit-background-size: cover;
-		background-position: center;
+		background-position: inherit;
 
 	}
 
