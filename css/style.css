@@ -2177,6 +2177,7 @@ section.hero-section .fs-canvas {
 	font-family: system-ui;
 	letter-spacing: 6px;
 	bottom: -84px;
+	right: 12px;
 	
 }
 
@@ -5370,7 +5371,7 @@ section.hero-section .fs-canvas {
 	line-height: 34px;
 	font-family: -webkit-pictograph;
 	text-align: end;
-	margin-left: -51px;
+	margin-left: -77px;
 }
 
 
@@ -5384,7 +5385,7 @@ section.hero-section .fs-canvas {
 	line-height: 34px;
 	font-family: -webkit-pictograph;
 	text-align: end;
-	margin-left: -8px;
+	margin-left: -26px;
 	}
 
 	.pr-subtitle-change-1{
@@ -5532,7 +5533,7 @@ section.hero-section .fs-canvas {
 
 	.accordion {
 	float: left;
-	width: 100%;
+	width: 46%;
 	position: relative;
 	margin-left: 471px;
 }
@@ -5971,7 +5972,7 @@ section.hero-section .fs-canvas {
 	font-family: 'Quicksand', sans-serif;
 	text-align: justify;
 	margin-left: 500px;
-	margin-right: 29px;
+	margin-right: 8px;
 }
 
 	.det-wrap-new p {
