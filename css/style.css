@@ -5374,6 +5374,20 @@ section.hero-section .fs-canvas {
 	margin-left: -77px;
 }
 
+.pr-subtitle-mobi {
+	font-size: 25px;
+	text-align: ;
+	color: #000;
+	font-weight: 800;
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+	line-height: 34px;
+	font-family: -webkit-pictograph;
+	text-align: end;
+	margin-left: -60px;
+}
+
 
 	.pr-subtitle-change{
 	font-size: 25px;
@@ -5464,7 +5478,7 @@ section.hero-section .fs-canvas {
 	font-family: -webkit-pictograph;
 	text-align: end;
 	margin-left: -495px;
-	margin-right: -8px;
+	margin-right: 12px;
 }
 
 .pr-subtitle-change-7{
