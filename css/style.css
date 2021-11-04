@@ -349,15 +349,9 @@ blockquote p {
 	height: 100%;
 }
 
-.respimg {
-	width: 100%;
-	height: auto;
-}
 
-.respimg-new {
-	width: 100%; !important
-	height: auto; !important
-}
+
+
 
 .hidden-item {
 	overflow: hidden;
@@ -3157,11 +3151,7 @@ section.hero-section .fs-canvas {
     margin-left: -17px;
 	}
 
-	.respimg-new {
-		width: 45%;
-		height: 45%;
-		margin-left: 494px;
-	}
+	
 
 	.aroma-button-new{
 	border: none;
@@ -5507,6 +5497,12 @@ section.hero-section .fs-canvas {
     margin-left: 246px;
 	}
 
+	.respimg {
+		width: 45%;!important
+		height: auto;
+		margin-left: 483px;
+}
+
 	.aroma-button-new {
               border: none;
               outline: 0;
@@ -6097,6 +6093,7 @@ section.hero-section .fs-canvas {
 		background-position: center;
 
 	}
+	
 	
 
 
