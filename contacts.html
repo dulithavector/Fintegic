@@ -197,10 +197,10 @@
                                 <div class="progress-bar-wrap bot-element">
                                     <div class="progress-bar"></div>
                                 </div>
-                                
-                                <div class="map-container mc_big">
-                                    <div id="map-single" class="map" data-latlog="[4.17530, 73.50261]" data-popuptext="We work in Maldives . <br> We are waiting for your visit"></div>
-                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6404.268068998433!2d73.49867357149135!3d4.1753045243154965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5013579e7b71366!2s6JPM5GG3%2B32!5e0!3m2!1sen!2slk!4v1636960311833!5m2!1sen!2slk" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!--                                <div class="map-container mc_big">-->
+<!--                                    <div id="map-single" class="map" data-latlog="[4.175187, 73.50256]" data-popuptext="We work in Maldives . <br> We are waiting for your visit"></div>-->
+<!--                                </div>-->
                             </div>
                             <!--fixed-column-wrap-content end-->
                         </div>
@@ -253,26 +253,26 @@
                                         <div id="contact-form">
                                             <div class="pr-bg pr-bg-white"></div>
                                             <div id="message"></div>
-                                            <form  class="custom-form" action="cdn-cgi/l/email-protection.html#026b6c646d42677a636f726e672c616d6f" name="contactform" id="contactform">
+                                            <form  class="custom-form" method="post" action="mail.php" name="contactform" id="contactform">
                                                 <fieldset>
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+                                                            <input type="text" required name="name" id="name" placeholder="Your Name *" value=""/>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text"  name="email" id="email" placeholder="Email Address *" value=""/>
+                                                            <input type="text"  required name="email" id="email" placeholder="Email Address *" value=""/>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text"  name="phone" id="phone" placeholder="Phone *" value=""/>
+                                                            <input type="text"  required name="phone" id="phone" placeholder="Phone *" value=""/>
                                                         </div>
-                                                        <d+iv class="col-md-6">
-                                                            <input type="text"  name="phone" id="message" placeholder="Message *" value=""/>
+                                                        <div class="col-md-6">
+                                                            <input type="text"  required name="message" id="message" placeholder="Message *" value=""/>
                                                         </div>
                                                     </div>
                                                     
                                                     
                                                     <div class="clearfix"></div>
-                                                    <button class="btn float-btn flat-btn color-bg" id="submit" style="background: #3b9393;" >Send Message <i class="fal fa-long-arrow-right"></i></button>
+                                                    <button class="btn float-btn flat-btn color-bg" type="submit" id="" style="background: #1d2121;" >Send Message <i class="fal fa-long-arrow-right"></i></button>
                                                 </fieldset>
                                             </form>
                                         </div>
